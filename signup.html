@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="login-box">
+        <div class="login-header">
+            <header>Sign Up</header>
+        </div>
+        <div class="input-box">
+            <input type="username" class="input-field" placeholder="Username" autocomplete="off" required>
+        </div>
+        <div class="input-box">
+            <input type="birthday" class="input-field" placeholder="Birthday" autocomplete="off" required>
+        </div>
+        <div class="input-box">
+            <input type="text" class="input-field" placeholder="Email" autocomplete="off" required>
+        </div>
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Password" autocomplete="off" required>
+        </div>
+        <div class="input-box">
+            <input type="password" class="input-field" placeholder="Confirm Password" autocomplete="off" required>
+        </div>
+        <div class="forgot">
+            <section>
+                <input type="checkbox" id="check">
+                <label for="check">Remember me</label>
+            </section>
+        </div>
+        <div class="input-submit">
+            <button class="submit-btn" id="submit" onclick="document.location='http://127.0.0.1:5500/home-with.html'"></button>
+            <label for="submit">Sign Up</label>
+        </div>
+        <div class="sign-up-link">
+            <p>have an account? <a href="#" onclick="document.location='http://127.0.0.1:5500/login.html'">Sign In</a></p>
+        </div>
+    </div>
+</body>
+</html>

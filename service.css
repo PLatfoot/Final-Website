@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+margin: 0;
+Padding: 0;
+Font-family: Playfair Display;
+}
+.content-box{
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/imgs/bg.jpg");
+Height: 200vh;
+Color: #fff;
+}
+h1{
+Text-align: center;
+Padding-top: 100px;
+}
+h1::after{
+Content: '';
+Background: #008000;
+Display: block;
+Height: 3px;
+Width: 170px;
+margin: 20px auto 50px;
+}
+.service .icon{
+Font-size: 30px;
+Margin: 20px auto;
+Padding: 18px;
+height: 70px;
+Width: 70px;
+Border: 1px solid #008000;
+Border-radius: 50%;
+Color: #008000;
+}
+.service p{
+Font-size: 15px;
+Margin-top: 10px;
+Color: #fff;
+Padding: 20px;
+}
+.service span{
+Color: #008000;
+Transition: .5s;
+}
+.service .col-md-3:hover{
+Background: linear-gradient(rgba(0,0,0,0.5),#008000);
+Cursor: pointer;
+Color: #000;
+Box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+Transition: .5s;
+}
+.service .col-md-3:hover icon{
+Border: 1px solid #fff;
+}
+.service .col-md-3:hover p{
+Color: #fff;
+}
+.service .col-md-3:hover span{
+Color: #fff;
+}

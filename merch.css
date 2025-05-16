@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+box-sizing: border-box;
+font-family: Playfair Display;
+padding: 0;
+margin: 0;
+}
+.product{
+box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+}
+body{
+width: 100%;
+padding: 120px;
+background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("/imgs/bg.jpg");
+}
+.container{
+display: grid;
+grid-template-columns: auto auto auto auto;
+gap: 30px;
+}
+.product img{
+width: 100%;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+.product-desc{
+text-align: center;
+padding: 20px 0px
+}
+.product-desc h3{
+font-size: 24px;
+padding: 10px 0px;
+}
+.product-desc p{
+font-size: 30px;
+}
+.checked{
+color: orange;
+}
